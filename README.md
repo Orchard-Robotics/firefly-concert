@@ -24,3 +24,10 @@ grader/bin/firefly-grader-darwin-arm64 --url http://127.0.0.1:8765 --correctness
 
 Pick the binary for your machine: `-darwin-arm64`, `-darwin-amd64`, `-linux-amd64`,
 `-linux-arm64`, or `-windows-amd64.exe`.
+
+No Go, Python or anything else is needed to run the grader. On macOS, if you downloaded this
+repo as a ZIP and Gatekeeper refuses to open the binary, clear the download quarantine once:
+
+```sh
+xattr -d com.apple.quarantine grader/bin/*
+```
