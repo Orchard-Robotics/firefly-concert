@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(grader/bin/firefly-grader-darwin-arm64:*)",
+      "Bash(grader/bin/firefly-grader-darwin-amd64:*)",
+      "Bash(grader/bin/firefly-grader-linux-amd64:*)",
+      "Bash(grader/bin/firefly-grader-linux-arm64:*)",
+      "Bash(./grader/bin/firefly-grader-darwin-arm64:*)",
+      "Bash(./grader/bin/firefly-grader-darwin-amd64:*)",
+      "Bash(./grader/bin/firefly-grader-linux-amd64:*)",
+      "Bash(./grader/bin/firefly-grader-linux-arm64:*)",
+      "Bash(go run ./grader:*)",
+      "Edit(./NOTES.md)",
+      "Write(./NOTES.md)"
+    ]
+  }
+}
